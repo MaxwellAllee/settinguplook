@@ -79,10 +79,15 @@ nav{
       grid-template-columns: 7.5% 85% 7.5%;
       margin-top: 4%;
       margin-bottom:4%;
+      
     }
+    
   }
 
   @media only screen and (max-width: 700px) {
+    nav{
+      height: 110px;
+    }
     .inner-grid-item{
       font-size: 1.5em;
     }
